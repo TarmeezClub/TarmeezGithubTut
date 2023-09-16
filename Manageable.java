@@ -9,13 +9,6 @@ public interface Manageable<T> {
     void add(T item);
 
     /**
-     * Updates an existing object in the management system.
-     *
-     * @param item The object to update.
-     */
-    void update(T item);
-
-    /**
      * Deletes an object from the management system.
      *
      * @param item The object to delete.

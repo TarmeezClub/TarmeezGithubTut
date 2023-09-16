@@ -17,13 +17,6 @@ public class StudentManager implements Manageable<Student> {
     }
 
     @Override
-    public void update(Student student) {
-        // Assuming student information can be updated based on some criteria, implement the update logic here.
-        // You might want to find the student in the list and update their information.
-        // No Need to implement this method .!
-    }
-
-    @Override
     public void delete(Student student) {
         studentList.remove(student);
         System.out.println("[-] Student deleted: " + student.getFirstName() + " " + student.getLastName());
