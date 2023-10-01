@@ -70,7 +70,7 @@ This Java-based Tarmeez Club Management System includes various entity classes w
 These are the inline instance variables for each of the additional entity classes. You can use these as a reference to implement the entity classes in your project.
 ## Manager Classes
 
-Each manager class provides methods for `adding()`, `updating()`, `deleting()`, and `listing()` records of the respective entity type.
+Each manager class provides methods for `adding()`, `deleting()` records of the respective entity type.
 
 ## Tester Class
 
