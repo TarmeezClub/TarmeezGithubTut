@@ -58,7 +58,7 @@ public class Project implements Manageable<Project> {
     }
 
     public static void main(String[] args) {
-        ProjectManager projectManager = new ProjectManager();
+        Project projectManager = new Project();
 
         Project project1 = new Project("1", "Project A", "Description A");
         Project project2 = new Project("2", "Project B", "Description B");
