@@ -6,24 +6,24 @@ This Java-based Tarmeez Club Management System includes various entity classes w
 
 ## Entity Classes
 
-1. ~~**Student Class**~~: 
-   `String studentID`, `String firstName`, `String lastName`, `String dateOfBirth`, `String email`
-2. ~~**Course Class**~~: 
-   `String courseID`, `String name`, `String teacher`, `int credits`
-3. ~~**Teacher Class**~~: 
-   `String teacherID`, `String firstName`, `String lastName`, `String email`
+1. ~~**Student Class**: 
+   `String studentID`, `String firstName`, `String lastName`, `String dateOfBirth`, `String email`~~
+2. ~~**Course Class**: 
+   `String courseID`, `String name`, `String teacher`, `int credits`~~
+3. ~~**Teacher Class**: 
+   `String teacherID`, `String firstName`, `String lastName`, `String email`~~
 4. **Assignment Class**: 
    `String assignmentID`, `String title`, `String deadline`
-5. ~~**Exam Class**~~: 
-   `String examID`, `String subject`, `String date`
+5. ~~**Exam Class**: 
+   `String examID`, `String subject`, `String date`~~
 6. **LibraryBook Class**: 
    `String ISBN`, `String title`, `String author`
 7. **AttendanceRecord Class**: 
    `String recordID`, `String studentName`, `String date`, `String status`
-8. ~~**Project Class**~~: 
-   `String projectID`, `String name`, `String description`
-9. ~~**Employee Class**~~: 
-   `String employeeID`, `String firstName`, `String lastName`, `String department`
+8. ~~**Project Class**: 
+   `String projectID`, `String name`, `String description`~~
+9. ~~**Employee Class**: 
+   `String employeeID`, `String firstName`, `String lastName`, `String department`~~
 10. **Event Class**: 
    `String eventID`, `String name`, `String date`
 11. **InventoryItem Class**: 
