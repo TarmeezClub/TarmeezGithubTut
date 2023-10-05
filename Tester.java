@@ -36,6 +36,24 @@ public class Tester {
         for (Exam exam : examManager.list()) {
             System.out.println(exam);
         }
+
+         //Course Class Test
+        // --------- Create instances of entity classes ---------
+        Course course1 = new Course("1001", "Math", "Dr.Hamza",3);
+        Course course2 = new Course("1002", "Programming", "Dr.Ziyad", 4);
+
+        // --------- Create instances of manager classes ---------
+        CourseManager courseManager = new CourseManager();
+
+        // --------- Add entities using manager classes ---------
+        courseManager.add(course1);
+        courseManager.add(course2);
+
+        // --------- List entities using manager classes ---------
+        System.out.println("\nList of Course:");
+        for (Course course : courseManager.list()) {
+            System.out.println(course);
+        }
     }
 
 }
